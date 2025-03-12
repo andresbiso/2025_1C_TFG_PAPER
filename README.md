@@ -40,6 +40,7 @@ brew install --cask texstudio
 
 # :page_facing_up: Formato y Plantillas <a name = "templates"></a>
 
+- https://www.ieee.org/conferences/publishing/templates.html
 - https://www.overleaf.com/org/ieee
 - https://www.overleaf.com/latex/templates/ieee-system-on-chip-conference-socc-template/hbxnrjqtdqjc
 
