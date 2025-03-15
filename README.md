@@ -43,6 +43,9 @@ brew install --cask texstudio
 - https://www.ieee.org/conferences/publishing/templates.html
 - https://www.overleaf.com/org/ieee
 - https://www.overleaf.com/latex/templates/ieee-system-on-chip-conference-socc-template/hbxnrjqtdqjc
+- https://www.overleaf.com/learn/latex/How_to_Write_a_Thesis_in_LaTeX_(Part_1)%3A_Basic_Structure
+- https://tex.stackexchange.com/questions/240313/change-name-of-abstract
+- https://tex.stackexchange.com/questions/131647/difference-between-section-and-section-in-beamer
 
 # :speech_balloon: Autor <a name = "author"></a>
 
