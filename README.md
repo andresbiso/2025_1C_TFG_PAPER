@@ -40,12 +40,20 @@ brew install --cask texstudio
 
 # :page_facing_up: Formato y Plantillas <a name = "templates"></a>
 
+## Plantillas
+
 - https://www.ieee.org/conferences/publishing/templates.html
 - https://www.overleaf.com/org/ieee
+- https://ctan.org/tex-archive/macros/latex/contrib/IEEEtran/
 - https://www.overleaf.com/latex/templates/ieee-system-on-chip-conference-socc-template/hbxnrjqtdqjc
+
+## Formato
+
 - https://www.overleaf.com/learn/latex/How_to_Write_a_Thesis_in_LaTeX_(Part_1)%3A_Basic_Structure
 - https://tex.stackexchange.com/questions/240313/change-name-of-abstract
 - https://tex.stackexchange.com/questions/131647/difference-between-section-and-section-in-beamer
+- https://tex.stackexchange.com/questions/482318/should-i-cite-using-beginthebibliography-or-beginfilecontents
+- http://tex.stackexchange.com/questions/350907/error-latex-error-somethings-wrong-perhaps-a-missing-item
 
 # :speech_balloon: Autor <a name = "author"></a>
 

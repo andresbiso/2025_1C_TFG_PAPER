@@ -1,19 +1,28 @@
-\documentclass[conference]{IEEEtran}
+\documentclass[journal]{IEEEtran}
 \IEEEoverridecommandlockouts
 
+\usepackage{cite}
 \usepackage{amsmath,amssymb,amsfonts}
 \usepackage{algorithmic}
 \usepackage{graphicx}
 \usepackage{textcomp}
 \usepackage{xcolor}
-\usepackage[style=alphabetic]{biblatex}
 \usepackage[english,spanish]{babel}
 \usepackage{blindtext}
+\usepackage{comment}
 
-\addbibresource{references/references.bib}
 \graphicspath{ {images/} }
 \def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+% thebibliography fix
+\makeatletter
+\def\endthebibliography{%
+	\def\@noitemerr{\@latex@warning{Empty `thebibliography' environment}}%
+	\endlist
+}
+\makeatother
+
 \begin{document}
 \selectlanguage{spanish}
 
@@ -51,14 +60,12 @@
 \section{Conclusiones}
 \input{sections/conclusion}
 
-\appendix
-\section{Apéndice}
-\input{sections/appendix}
+\appendices
+\input{sections/appendices}
 
-\section{Reconocimientos}
+\section*{Reconocimientos}
 \input{sections/acknowledgement}
 
-\section{Referencias}
 \input{sections/references}
 
 \input{sections/biography}
