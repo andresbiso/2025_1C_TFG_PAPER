@@ -61,6 +61,6 @@ brew install --cask texstudio
 
 # :tada: Reconocimientos <a name = "acknowledgement"></a>
 
-- https://github.com/jrabuc -> Profesor y Tutor de la materia
+- https://github.com/jrabuc
 - https://github.com/github/gitignore
 - https://gist.github.com/rxaviers/7360908 -> github emojis
