@@ -25,7 +25,7 @@
 <p align="center">
   <img src="docs/presentacion/presentacion_tfg_preview.png?raw=true" width="350" title="Diagrama de Arquitectura">
   <br>
-  <strong><a href="docs/presentacion/presentacion_tfg.pdf">Ver diagrama</a></strong>
+  <strong><a href="docs/presentacion/presentacion_tfg.pdf">Ver presentación</a></strong>
 </p>
 
 # :hammer: Aplicaciones Utilizadas <a name = "applications"></a>
