@@ -20,6 +20,17 @@
 > [!NOTE]
 > La implementación de este paper se encuentra en el siguiente repositorio de código: https://github.com/andresbiso/2025_1C_TFG
 
+## Presentación
+
+<figure style="text-align: center;">
+    <a href="docs/presentacion/presentacion_tfg.pdf" target="_blank">
+        <img src="docs/presentacion/presentacion_tfg_preview.png" width="350" title="presentación tfg - vista previa">
+        <figcaption>
+            <strong>Ver presentación</strong>
+        </figcaption>
+    </a>
+</figure>
+
 # :hammer: Aplicaciones Utilizadas <a name = "applications"></a>
 
 > [!NOTE]  
