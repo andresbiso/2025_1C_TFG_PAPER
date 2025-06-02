@@ -22,14 +22,11 @@
 
 ## Presentación
 
-<figure style="text-align: center;">
-    <a href="docs/presentacion/presentacion_tfg.pdf" target="_blank">
-        <img src="docs/presentacion/presentacion_tfg_preview.png" width="350" title="presentación tfg - vista previa">
-        <figcaption>
-            <strong>Ver presentación</strong>
-        </figcaption>
-    </a>
-</figure>
+<p align="center">
+  <img src="docs/presentacion/presentacion_tfg_preview.png?raw=true" width="350" title="Diagrama de Arquitectura">
+  <br>
+  <strong><a href="docs/presentacion/presentacion_tfg.pdf">Ver diagrama</a></strong>
+</p>
 
 # :hammer: Aplicaciones Utilizadas <a name = "applications"></a>
 
