@@ -49,6 +49,14 @@ brew install --cask mactex
 brew install --cask texstudio
 ```
 
+## Visual Studio Code Extensions
+
+> [!NOTE]
+> Ver "recommendations" en `.vscode/extensions.json`.
+
+Principalmente hago uso de [Rewrap Revived](https://marketplace.visualstudio.com/items?itemName=dnut.rewrap-revived).
+Permite darle un formato consistente a lo escrito en LaTex.
+
 # :page_facing_up: Formato y Plantillas <a name = "templates"></a>
 
 ## Plantillas
