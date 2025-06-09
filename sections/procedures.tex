@@ -1,2 +1,63 @@
+Esta sección describe los pasos seguidos para la implementación de la solución
+LMS basada en microaprendizaje, asegurando un desarrollo estructurado y
+eficiente.  
 
+\subsection{Configuración de la Arquitectura}  
+Para la implementación del sistema, se define una arquitectura cliente-servidor
+compuesta por varios módulos clave. Se diseñan los componentes principales
+para garantizar una interacción fluida entre los usuarios y el sistema,
+asegurando accesibilidad y escalabilidad.  
 
+\subsection{Implementación del Cliente}  
+La interfaz de usuario es desarrollada utilizando React, optimizada
+con Vite para mejorar el rendimiento. Los pasos de implementación
+incluyen:  
+
+\begin{itemize}  
+    \item Configuración del entorno de desarrollo con React.  
+    \item Desarrollo de componentes dinámicos para la presentación de cursos.  
+    \item Integración con API REST para la comunicación con el backend.  
+    \item Gestión del estado y almacenamiento local de preferencias del usuario.  
+\end{itemize}  
+
+\subsection{Desarrollo del Servidor}  
+El backend, construido en Node.js con Express, se encarga de gestionar
+la lógica de negocio y la seguridad del sistema. Su implementación se realiza
+siguiendo los siguientes pasos:  
+
+\begin{itemize}  
+    \item Creación de endpoints para la gestión de usuarios, cursos e
+    integraciones.  
+    \item Implementación de autenticación y autorización mediante JWT.  
+    \item Integración con MongoDB para el almacenamiento de datos estructurados.  
+    \item Comunicación con servicios externos provistos a través de contenedores
+    Docker para garantizar escalabilidad.  
+\end{itemize}  
+
+\subsection{Integración con Telegram}  
+Para mejorar la interacción con los usuarios, se desarrolla un bot de Telegram
+que permite la notificación automática de nuevos cursos. La integración sigue
+estos pasos:  
+
+\begin{itemize}  
+    \item Creación del bot utilizando la API de Telegram.  
+    \item Desarrollo de un servidor intermedio en Flask para gestionar las
+    solicitudes.  
+    \item Configuración de comunicación entre el bot y el sistema LMS.  
+\end{itemize}  
+
+\subsection{Despliegue y Mantenimiento}  
+Lo servicios, el bot server y el bot se configuran para ejecutarse en
+contenedores Docker, asegurando portabilidad y facilidad de mantenimiento.
+El servidor, por su parte, se despliega a un ambitene configurado para su
+correcta ejecución.
+Para el despliegue se llevan a cabo las siguientes acciones:  
+
+\begin{itemize}  
+    \item Creación de archivos Docker para cada módulo del sistema que haga uso del mismo.  
+    \item Automatización de despliegues utilizando Docker Compose.  
+\end{itemize}  
+
+Este enfoque metodológico permite una implementación estructurada del sistema,
+facilitando la optimización de sus funcionalidades y asegurando la integración
+efectiva de microaprendizaje en un entorno empresarial.  
